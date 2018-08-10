@@ -30,8 +30,9 @@ Vue.use(KsVueScrollmagic)
 
 Create a ksvuescrollmagic.js file in yur plugins folder, and add it to yout nuxt.config.js file with ssr: false option
 
-ksvuefp.js
+ksvuescrollmagic.js
 ```js
+import Vue from 'vue'
 import KsVueScrollmagic from 'ks-vue-scrollmagic'
 Vue.use(KsVueScrollmagic)
 ```
